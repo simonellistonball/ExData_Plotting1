@@ -1,6 +1,6 @@
 #source('load_and_clean.R')
 
-par(mfrow=c(1,1), cex=0.8)
+par(mfrow=c(1,1))
 
 plot(d$Sub_metering_1 ~ d$t, col="black", type="l", xlab="", ylab="Energy sub metering")
 lines(d$Sub_metering_2  ~ d$t, col="red")
