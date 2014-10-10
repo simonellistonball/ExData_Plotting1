@@ -1,3 +1,10 @@
+## Notes:
+
+The code to download, open and clean the data for each chart has been centralised in load_and_clean.R.
+
+To generate PNG exports of each chart use the make_pngs.R script, which generated a 480x480 PNG from the 
+plots described in plot{1-4}.R.
+
 ## Introduction
 
 This assignment uses data from
