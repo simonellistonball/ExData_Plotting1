@@ -1,4 +1,4 @@
-#source('load_and_clean.R')
+source('load_and_clean.R')
 
 make_png <- function(name) {
   png(filename = paste(name, 'png', sep = '.'), width = 480, height = 480)
